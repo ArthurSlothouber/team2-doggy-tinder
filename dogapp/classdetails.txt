@@ -1,0 +1,11 @@
+class Dog{
+  id--number
+  image-array of url
+  breed-string
+}
+
+User{
+  id-integer
+  likes by breed type--array :1st column types,2nd likes
+  total likes--number
+}
