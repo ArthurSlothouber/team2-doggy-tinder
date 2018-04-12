@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react'
 import {Dog} from '../../../DummyData'
 import DogImage from './DogImage'
 import DogBreed from './DogBreed'
+import '../../css/DogLike.css'
+import '../../css/DogDisLike.css'
 
 class DogLike extends PureComponent {
 
@@ -37,10 +39,8 @@ class DogLike extends PureComponent {
       <div>
      <DogBreed dogbreed={this.state.breed} />
      <DogImage dogurl={this.state.dogurl} />
-     <button className="homepagelikebutton" onClick={this.handleClick}>
-        Like</button>
-      <button className="homepagedislikebutton" onClick={this.handleClick}>
-      Dislike</button>
+     <button className="DogDisLike " onClick={this.handleClick}>Dislike</button>
+     <button className="DogLike" onClick={this.handleClick}>Like</button>
       </div>
     )
   }

@@ -2,19 +2,24 @@
 /* font-family: 'Lobster', cursive;
 font-family: 'Contrail One', cursive; */
 
-button.DogLike {
+button.DogDisLike {
   font-size: 20px;
   cursor: pointer;
-  width: 55px;
+  width: 80px;
   height: 40px;
   /* padding: 15px; */
   margin: 10px;
-  background-color: #9E2525;
+  background-color: #EE3838;
   color: white;
   border-radius: 12px;
   font-family: 'Contrail One', cursive;
 }
 
-button.DogLike:hover {
+button.DogDisLike:hover {
   background-color: #EE3838;
 }
+
+
+/* dark red: #9E2525
+med red: #D32F2F
+light red: #EE3838 */
