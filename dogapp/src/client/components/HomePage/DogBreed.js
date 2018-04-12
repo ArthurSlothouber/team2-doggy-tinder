@@ -1,23 +1,19 @@
 import React, { PureComponent } from 'react'
-
+import {Dog} from '../../../DummyData'
 
 
 class DogBreed extends PureComponent {
-  render() {
+   render(){
 
-    return (
-      <h1> This is the Dogbreed of the picture shown</h1>
-      /*
-      render() {
-    const {breed.id} = this.props
-    return (
-      <div>
-        <h1>Show DogBreed </h1>
-      </div>
-    )
-  }
-  */
-    )
+      //let url=Math.floor(Math.random() * Dog.length);
+      //let breed=Dog[url].breed;
+
+      return (
+        <div>
+          {this.props.dogbreed}
+        </div>
+      )
+
   }
 }
 

@@ -1,13 +1,19 @@
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 import '../../css/DogImage.css'
+import {Dog} from '../../../DummyData'
 
-class DogImage extends PureComponent {
-  render() {
-    const {DogInfo} = this.props
+
+class DogImage extends PureComponent{
+
+  render(){
+
+    //let url=Math.floor(Math.random() * Dog.length);
+    //let dogurl=Dog[url].image;
+
     return (
       <div>
-        <img src="{ DogInfo.url }" alt="{DogInfo.breed}"/>
+        <img src={this.props.dogurl} alt="{DogInfo.breed}"/>
       </div>
     )
   }
