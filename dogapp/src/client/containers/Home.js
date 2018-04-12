@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import '../css/Home.css';
 import Nav from "./nav.js";
-import DogImage from '../components/HomePage/DogImage'
-import DogBreed from '../components/HomePage/DogBreed'
-import {Dog} from '../../DummyData'
+import DogImage from '../components/HomePage/DogImage';
+import DogBreed from '../components/HomePage/DogBreed';
+import {Dog} from '../../DummyData';
+import DogDisLike from '../components/HomePage/DogDisLike';
 
 class Home extends Component {
 
@@ -18,6 +19,7 @@ class Home extends Component {
         <br />
         <DogBreed dogbreed={breed} />
         <DogImage dogurl={dogurl} />
+        <DogDisLike />
 
       </div>
     );
