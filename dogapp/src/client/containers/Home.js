@@ -9,15 +9,20 @@ import DogDisLike from '../components/HomePage/DogDislike'
 
 class Home extends Component {
 
+
+
+
+
+
   render() {
 
     return(
       <div>
-        <Nav />
-        <br />
 
+        <br />
         <DogLike />
-        <DogDisLike />
+        
+        <Nav />
 
       </div>
     );
