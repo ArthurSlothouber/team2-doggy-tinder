@@ -10,6 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div className="logoHeader">Doggy Lover Dating</div>
+      <br/>
       <Home />
       </div>
     );

@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import {Dog} from '../../../DummyData'
+import '../../css/DogBreed.css'
 
 
 class DogBreed extends PureComponent {
@@ -9,7 +10,7 @@ class DogBreed extends PureComponent {
       //let breed=Dog[url].breed;
 
       return (
-        <div>
+        <div className="DogBreed">
           {this.props.dogbreed}
         </div>
       )

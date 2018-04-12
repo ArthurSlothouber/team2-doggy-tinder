@@ -8,15 +8,15 @@ button.DogDisLike {
   width: 80px;
   height: 40px;
   /* padding: 15px; */
-  margin: 10px;
+  margin: 5px;
   background-color: #EE3838;
   color: white;
-  border-radius: 12px;
+  border-radius: 10px;
   font-family: 'Contrail One', cursive;
 }
 
 button.DogDisLike:hover {
-  background-color: #EE3838;
+  background-color: #9E2525;
 }
 
 
