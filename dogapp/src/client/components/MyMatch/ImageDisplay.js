@@ -1,15 +1,15 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import {User} from '../../../DummyData';
+
 export class ImageDisplay extends PureComponent {
-static propTypes ={
-  imagedisplay: PropTypes.func.isRequired
-}
-  render() {
+render() {
+    console.log('display')
 return (
   <div>
 
-  <img src="https://static.boredpanda.com/blog/wp-content/uploads/2017/09/dog-tinder-phil-lifewithmalamutes-fb__700-png.jpg" alt=""/>
+  <img src={User[0].image} alt="{User.image}"/>
 </div>
   )
   }

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 
-class BackButtonMatch extends PureComponent {
+export class BackButtonMatch extends PureComponent {
   render() {
 
       return(
