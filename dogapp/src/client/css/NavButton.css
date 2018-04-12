@@ -1,0 +1,16 @@
+/* client/src/css/TopThreeButton.css  */
+
+button.NavButton {
+  font-size: 12px;
+  /* margin: 50px; */
+  cursor: pointer;
+  max-width: 113px;
+  height: 100px;
+  padding: 15px;
+  background-color: #ccc;
+  color: white;
+}
+
+button.NavButton:hover {
+  background-color: #EE3838;
+}
