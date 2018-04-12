@@ -17,6 +17,7 @@ class DogLike extends PureComponent {
  }
 
 
+
   dogClick(){
     let url=Math.floor(Math.random() * Dog.length);
     this.setState({
