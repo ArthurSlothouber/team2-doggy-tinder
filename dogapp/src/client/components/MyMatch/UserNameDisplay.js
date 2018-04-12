@@ -5,14 +5,15 @@ import {User} from '../../../DummyData';
 
 
 export class UserNameDisplay extends PureComponent {
-  static propTypes = {
-    username: PropTypes.string.isRequired
-  }
+
   render() {
-    const username = this.props.user;
-  return (
-    <div>{username}</div>
-  )
+    console.log('name')
+return(
+    <div>
+      <h1>{User[0].username}
+      </h1>
+      </div>
+    )
   }
 }
 // const mapStateToProps = function (state, props) {
