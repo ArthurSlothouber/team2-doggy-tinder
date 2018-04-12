@@ -22,7 +22,7 @@ class Home extends Component {
 
         <br />
         <DogLike />
-        <DogDisLike />
+        
         <Nav />
 
       </div>
