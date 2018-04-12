@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
 export class ImageDisplay extends PureComponent {
 static propTypes ={
   imagedisplay: PropTypes.func.isRequired
