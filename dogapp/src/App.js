@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './client/css/App.css';
-// import Home from './client/containers/Home'
+import Home from './client/containers/Home'
 import Match from './client/containers/Match';
 
 
