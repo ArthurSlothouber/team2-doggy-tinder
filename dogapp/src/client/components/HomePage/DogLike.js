@@ -36,11 +36,8 @@ class DogLike extends PureComponent {
   render() {
 
     return(
-<<<<<<< HEAD
-      <button className="homepagelikebutton">
-        Like
-      </button>
-=======
+
+
       <div>
      <DogBreed dogbreed={this.state.breed} />
      <DogImage dogurl={this.state.dogurl} />
@@ -49,7 +46,7 @@ class DogLike extends PureComponent {
       <button className="homepagedislikebutton" onClick={this.handleClick}>
       Dislike</button>
       </div>
->>>>>>> 28664a77b2ec4a43d50d1e7e5e1d00abf365b653
+
     )
   }
 }

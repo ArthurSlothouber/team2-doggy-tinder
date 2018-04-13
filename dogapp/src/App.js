@@ -12,9 +12,10 @@ class App extends Component {
       <div className="App">
 
 
-
-     <Match />
       <Home />
+      <Match />
+      <Top3 />
+
 
       </div>
     );
