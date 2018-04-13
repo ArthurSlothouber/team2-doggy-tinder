@@ -4,7 +4,7 @@ font-family: 'Contrail One', cursive; */
 
 
 
-.nav-tabs > li.active > {
+.nav-tabs > li:active > {
   color: #EE3838;
   font-family: 'Contrail One', cursive;
   font-size: 18px;
@@ -23,11 +23,13 @@ font-family: 'Contrail One', cursive; */
 }
 
 .nav-tabs > li:hover {
-	background-color: red;
-	color: #FFFFFF;
-	border-style: none;
+	background-color: white;
+	color: #EE3838;
+	border-style: hidden;
   list-style-type: none;
+  border-top: none;
 }
+
 
 .nav-tabs{
     border-bottom: none;

@@ -65,7 +65,7 @@ function dogClick(state){
   dogurl:Dog[url].image,
   breed:Dog[url].breed},
 )*/
-  state.DogReducer.breed=Dog[url].DogBreed
+  state.DogReducer.breed=Dog[url].breed
   state.DogReducer.dogurl=Dog[url].image
 
 }
