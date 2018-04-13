@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Lobster');
+/* font-family: 'Lobster', cursive;
+font-family: 'Contrail One', cursive; */
+
+
+
+.nav-tabs > li.active > {
+  color: #EE3838;
+  font-family: 'Contrail One', cursive;
+  font-size: 18px;
+  background-color: white;
+
+}
+.nav-tabs > li > a {
+  color: #e2e2e2;
+  font-family: 'Contrail One', cursive;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+
+
+
+}
+
+.nav-tabs > li:hover {
+	background-color: red;
+	color: #FFFFFF;
+	border-style: none;
+  list-style-type: none;
+}
+
+.nav-tabs{
+    border-bottom: none;
+    display: inline-block; /* needed to center the list items */
+    background-color: rgb(210, 203, 203);
+    height: 25px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+/*
+h2 {
+  text-align: center;
+  background-color: #fff;
+  width: 452px;
+  font-family: 'Lobster', cursive;
+  color: #FF8080;
+
+}
+
+.logoHeader {
+  background-color: #EE3838;
+  font-family: 'Lobster', cursive;
+  height: 50px;
+  width: 452px;
+  color: #FF8080;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+} */

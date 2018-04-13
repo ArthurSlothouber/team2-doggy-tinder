@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../css/NavBar.css'
 
 const Nav = props =>
   <ul className="Nav nav-tabs">
-    <li onClick={() => props.handlePageChange("home")}>
+    <li className ="active" onClick={() => props.handlePageChange("home")}>
       <Link to="/">home</Link>
     </li>
     <li onClick={() => props.handlePageChange("Match")}>
