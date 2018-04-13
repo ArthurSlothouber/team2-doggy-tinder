@@ -9,12 +9,7 @@ import DogDisLike from '../components/HomePage/DogDislike'
 
 class Home extends Component {
 
-
-
-
-
-
-  render() {
+render() {
 
     return(
       <div>
