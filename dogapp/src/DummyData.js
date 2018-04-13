@@ -17,23 +17,23 @@ export const Dog=[
 export const User=[
   {
     id:7,
-    username: "Sara",
-    image:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sara_Chafak_2016.jpg/1200px-Sara_Chafak_2016.jpg',
+    username: "Ellen",
+    image:'http://www.boudewijndanser.nl/code/dog-lover-001.jpg',
     breedlikes: 0,
-    totallikes:0
+    totallikes:5
   },
   {
     id:8,
-    username:"Arthur",
-    image: 'https://tvokids.com/sites/default/files/custom_brand_hero_images/tileSM_arthur.jpg',
+    username:"Ryan",
+    image: 'http://www.boudewijndanser.nl/code/dog-lover-002.jpg',
     breedlikes:0,
-    totallikes: 0
+    totallikes: 7
   },
   {
     id:9,
-    username:"Sandra",
-    image:'https://lyricstranslate-f2sqfo9.stackpathdns.com/files/styles/large/public/A-SANDRA-11.jpg?itok=8HRFlr_e',
+    username:"Martin",
+    image:'http://www.boudewijndanser.nl/code/dog-lover-003.jpg',
     breedlikes: 0,
-    totallikes: 0,
+    totallikes: 10,
   }
 ]
