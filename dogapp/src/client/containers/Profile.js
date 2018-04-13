@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Profile.css';
+import TitleHeader from '../components/TitleHeader'
 
 class Profile extends Component {
 
@@ -8,7 +9,8 @@ class Profile extends Component {
 
     return(
       <div className="Profile">
-        Profile
+        <TitleHeader title ="Profile" />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br />
       </div>
     );
   }

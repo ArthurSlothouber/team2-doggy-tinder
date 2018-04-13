@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import {Dog} from '../../../DummyData'
 import DogImage from './DogImage'
-import DogBreed from './DogBreed'
+import TitleHeader from '../TitleHeader'
 
 import { connect } from 'react-redux'
 
@@ -40,11 +40,12 @@ class DogLike extends PureComponent {
   render() {
 
     console.log("inside render")
+    console.log('DogBreed',this.props.DogReducer.breed)
     return(
       <div>
 
 
-     <DogBreed dogbreed={this.props.DogReducer.breed} />
+     <TitleHeader title={this.props.DogReducer.breed} />
      <DogImage dogurl={this.props.DogReducer.dogurl} />
      <button className="DogDisLike" onClick={this.handleDisLikeClick}>
      Dislike</button>

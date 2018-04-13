@@ -9,7 +9,7 @@ export class UserNameDisplay extends PureComponent {
   render() {
     console.log('name')
 return(
-    <div className="titleHeader">{User[0].username}</div>
+    <div className="TitleHeader">{User[0].username}</div>
     )
   }
 }
