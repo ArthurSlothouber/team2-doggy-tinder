@@ -1,1 +1,13 @@
 /* client/src/css/Top3.css  */
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Lobster');
+/* font-family: 'Lobster', cursive;
+font-family: 'Contrail One', cursive; */
+
+h2 {
+  text-align: center;
+  background-color: #fff;
+  width: 380px;
+  font-family: 'Lobster', cursive;
+  color: #FF8080;
+  text-align: center;
+}

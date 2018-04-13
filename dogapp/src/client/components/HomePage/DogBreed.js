@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import {Dog} from '../../../DummyData'
-import '../../css/titleHeader.css'
+import '../../css/TitleHeader.css'
 
 
 class DogBreed extends PureComponent {

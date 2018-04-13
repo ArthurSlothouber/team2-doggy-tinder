@@ -4,7 +4,7 @@
 /* font-family: 'Lobster', cursive;
 font-family: 'Contrail One', cursive; */
 
-.titleHeader {
+.TitleHeader {
   background-color: #9E2525;
   height: 55px;
   width: 380px;
@@ -13,5 +13,6 @@ font-family: 'Contrail One', cursive; */
   font-size: 30px;
   padding: 5px;
   text-align: center;
+  margin-left: 36px;
 
 }

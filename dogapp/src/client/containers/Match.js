@@ -13,6 +13,7 @@ class Match extends Component {
       <UserNameDisplay />
       <br />
       <ImageDisplay />
+      <br />
     </div>
 )
 
