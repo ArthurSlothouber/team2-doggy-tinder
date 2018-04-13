@@ -1,20 +1,17 @@
+/* client/src/css/titleHeader.css  */
+
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Lobster');
 /* font-family: 'Lobster', cursive;
 font-family: 'Contrail One', cursive; */
 
-button.DogLike {
-  font-size: 20px;
-  cursor: pointer;
-  width: 55px;
-  height: 40px;
-  /* padding: 15px; */
-  margin: 5px;
+.titleHeader {
   background-color: #9E2525;
-  color: white;
-  border-radius: 10px;
+  height: 55px;
+  width: 380px;
   font-family: 'Contrail One', cursive;
-}
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
 
-button.DogLike:hover {
-  background-color: #EE3838;
 }

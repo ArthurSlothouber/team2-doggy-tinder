@@ -2,11 +2,16 @@ import React, { PureComponent } from 'react'
 import {Dog} from '../../../DummyData'
 import DogImage from './DogImage'
 import DogBreed from './DogBreed'
+
 import { connect } from 'react-redux'
 
 import {LikeDog} from '../../actions/LikeDog'
 import {DisLikeDog} from '../../actions/LikeDog'
 import store from '../../../store'
+
+import '../../css/DogLike.css'
+import '../../css/DogDisLike.css'
+
 
 class DogLike extends PureComponent {
 
@@ -38,12 +43,15 @@ class DogLike extends PureComponent {
     return(
       <div>
 
+
      <DogBreed dogbreed={this.props.DogReducer.breed} />
      <DogImage dogurl={this.props.DogReducer.dogurl} />
      <button className="homepagelikebutton" onClick={this.handleLikeClick}>
         Like</button>
       <button className="homepagedislikebutton" onClick={this.handleDisLikeClick}>
       Dislike</button>
+
+   
       </div>
     )
   }

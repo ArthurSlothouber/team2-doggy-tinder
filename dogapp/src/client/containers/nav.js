@@ -1,28 +1,20 @@
-import React from 'react';
-import '../css/nav.css';
-import NavButton from '../components/NavButton'
+import React from "react";
+import { Link } from "react-router-dom";
 
-class Nav extends React.Component {
-    constructor(props) {
-      super(props);
-      this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick(event) {
-        alert('click');
-    }
-
-    render() {
-
-        return (
-            <div>
-                <button className="NavButton" onClick={(event) => this.handleClick(event)}>{this.label = "home"}</button>
-                <button className="NavButton" onClick={(event) => this.handleClick(event)}>{this.label = "show my match"}</button>
-                <button className="NavButton" onClick={(event) => this.handleClick(event)}>{this.label = "my top 3 dogs"}</button>
-                <button className="NavButton" onClick={(event) => this.handleClick(event)}>{this.label = "profile"}</button>
-            </div >
-        );
-    }
-};
+const Nav = props =>
+  <ul className="Nav nav-tabs">
+    <li onClick={() => props.handlePageChange("home")}>
+      <Link to="/">home</Link>
+    </li>
+    <li onClick={() => props.handlePageChange("Match")}>
+      <Link to="/my-match">my match</Link>
+    </li>
+    <li onClick={() => props.handlePageChange("Top3")}>
+      <Link to="/my-top-3">my top 3</Link>
+    </li>
+    <li onClick={() => props.handlePageChange("Profile")}>
+        <Link to="/my-profile">my profile</Link>
+      </li>
+    </ul>;
 
 export default Nav;
