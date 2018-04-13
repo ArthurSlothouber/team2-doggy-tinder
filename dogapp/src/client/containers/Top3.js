@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../css/Home.css';
-import Nav from "./nav.js";
+import '../css/Top3.css';
 import {TopThreeDisplay} from '../components/TopThree/TopThreeDisplay'
 
 class Top3 extends Component {
@@ -9,7 +8,6 @@ class Top3 extends Component {
     return(
       <div>
       <TopThreeDisplay />
-      <Nav />
       </div>
   )
   }

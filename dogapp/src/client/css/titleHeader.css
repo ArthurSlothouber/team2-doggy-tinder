@@ -1,16 +1,17 @@
-/* client/src/css/DogBreed.css  */
+/* client/src/css/titleHeader.css  */
 
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Lobster');
 /* font-family: 'Lobster', cursive;
 font-family: 'Contrail One', cursive; */
 
-.DogBreed {
+.titleHeader {
   background-color: #9E2525;
-  height: 35px;
+  height: 55px;
   width: 380px;
   font-family: 'Contrail One', cursive;
   color: white;
   font-size: 30px;
   padding: 5px;
+  text-align: center;
 
 }

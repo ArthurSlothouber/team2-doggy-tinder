@@ -38,7 +38,8 @@ class DogLike extends PureComponent {
     return(
       <div>
      <DogBreed dogbreed={this.state.breed} />
-     <DogImage dogurl={this.state.dogurl} />
+     <br />
+     <DogImage dogurl ={this.state.dogurl} />
      <button className="DogDisLike " onClick={this.handleClick}>Dislike</button>
      <button className="DogLike" onClick={this.handleClick}>Like</button>
       </div>

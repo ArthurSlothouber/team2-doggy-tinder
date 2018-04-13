@@ -6,37 +6,17 @@ font-family: 'Contrail One', cursive; */
   text-align: center;
   background-color: #fff;
   width: 452px;
+
+
 }
 
 .logoHeader {
   background-color: #EE3838;
   font-family: 'Lobster', cursive;
-  height: 45px;
+  height: 50px;
   width: 452px;
   color: #FF8080;
   font-size: 24px;
-  padding-top: 10px;
+  padding: 10px;
+  text-align: center;
 }
-
-
-button.DogDisLike {
-  font-size: 20px;
-  cursor: pointer;
-  width: 80px;
-  height: 40px;
-  /* padding: 15px; */
-  margin: 5px;
-  background-color: #EE3838;
-  color: white;
-  border-radius: 10px;
-
-}
-
-button.DogDisLike:hover {
-  background-color: #9E2525;
-}
-
-
-/* dark red: #9E2525
-med red: #D32F2F
-light red: #EE3838 */

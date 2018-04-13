@@ -10,6 +10,7 @@ class Match extends Component {
     return(
     <div>
       <UserNameDisplay />
+      <br />
       <ImageDisplay />
     </div>
 )
