@@ -46,12 +46,13 @@ class DogLike extends PureComponent {
 
      <DogBreed dogbreed={this.props.DogReducer.breed} />
      <DogImage dogurl={this.props.DogReducer.dogurl} />
-     <button className="homepagelikebutton" onClick={this.handleLikeClick}>
-        Like</button>
-      <button className="homepagedislikebutton" onClick={this.handleDisLikeClick}>
-      Dislike</button>
+     <button className="DogDisLike" onClick={this.handleDisLikeClick}>
+     Dislike</button>
 
-   
+     <button className="DogLike" onClick={this.handleLikeClick}>
+        Like</button>
+
+
       </div>
     )
   }
