@@ -3,11 +3,8 @@ import '../css/Home.css';
 import DogLike from '../components/HomePage/DogLike'
 
 class Home extends Component {
-
-
-  render() {
-
-    return(
+render() {
+ return(
       <div className="Home">
         <DogLike />
       </div>

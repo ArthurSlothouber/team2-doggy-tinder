@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, { Component } from 'react';
+import './client/css/App.css';
 import { BrowserRouter as Router, Route} from "react-router-dom"
 import Container from './client/containers/container'
 import Home from './client/containers/Home'
@@ -7,6 +9,7 @@ import Top3 from './client/containers/Top3'
 import Profile from './client/containers/Profile'
 import './client/css/App.css'
 import Nav from './client/containers/Nav'
+
 
 
 const App = () =>
@@ -21,6 +24,11 @@ const App = () =>
       <Container />
     </div>
   </Router>
+     <Home />
+      </div>
+    );
+  }
+}
 
 
 export default App;
