@@ -13,8 +13,10 @@ import Nav from './client/containers/Nav'
 
 
 const App = () =>
+
   <Router>
     <div>
+
       <div className="logoHeader">Doggy Lover Dating</div>
       <br />
       <Route exact path="/" component={Home} />
@@ -23,12 +25,8 @@ const App = () =>
       <Route exact path="/my-profile" component={Profile} />
       <Container />
     </div>
-  </Router>
-     <Home />
-      </div>
-    );
-  }
-}
+    </Router>
+
 
 
 export default App;
