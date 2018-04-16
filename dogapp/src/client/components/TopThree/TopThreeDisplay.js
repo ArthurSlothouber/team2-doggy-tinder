@@ -11,13 +11,13 @@ export class TopThreeDisplay extends PureComponent {
       return(
         <div>
         <h2>{Dog[0].breed}</h2>
-        <img src={Dog[0].image} alt="{Dog.image}"/>
+        <img style={{maxHeight:'500px'}} src={Dog[0].image} alt="{Dog.image}"/>
         <br />
         <h2>{Dog[1].breed}</h2>
-        <img src={Dog[1].image} alt="{Dog.image}"/>
+        <img style={{maxHeight:'500px'}} src={Dog[1].image} alt="{Dog.image}"/>
         <br />
         <h2>{Dog[2].breed}</h2>
-        <img src={Dog[2].image} alt="{Dog.image}"/>
+        <img style={{maxHeight:'500px'}} src={Dog[2].image} alt="{Dog.image}"/>
         </div>
     )
     }

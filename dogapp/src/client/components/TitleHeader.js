@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import '../css/TitleHeader.css'
+import '../css/titleHeader.css'
 
 
 class TitleHeader extends PureComponent {

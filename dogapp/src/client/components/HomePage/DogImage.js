@@ -13,7 +13,7 @@ class DogImage extends PureComponent{
 
     return (
       <div>
-        <img src={this.props.dogurl} alt="{DogInfo.breed}"/>
+        <img style={{maxHeight:'500px'}} src={this.props.dogurl} alt="{DogInfo.breed}"/>
       </div>
     )
   }
